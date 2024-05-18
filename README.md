@@ -48,26 +48,5 @@
     </ul>
     <h2>Conclusion</h2>
     <p>This project successfully demonstrates a power source that can operate in both constant current and constant voltage modes to charge a 12V lead acid battery efficiently and safely.</p>
-    <h2>Repository Structure</h2>
-    <ul>
-        <li><strong>/schematics</strong> - Circuit schematics and diagrams.</li>
-        <li><strong>/code</strong> - Any code or scripts used in the project.</li>
-        <li><strong>/documentation</strong> - Project documentation and reports.</li>
-        <li><strong>/enclosure_design</strong> - Files related to the enclosure design.</li>
-    </ul>
-
-<h2>Getting Started</h2>
-    <ol>
-        <li>Clone the repository:
-            <pre><code>git clone https://github.com/your-username/lead-acid-battery-charger.git</code></pre>
-        </li>
-        <li>Follow the instructions in the <strong>/documentation</strong> folder to set up the circuit and test the functionality.</li>
-    </ol>
-    <h2>Contributions</h2>
-    <p>Feel free to submit issues, fork the repository, and send pull requests. Contributions are welcome!</p>
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-    <h2>Contact</h2>
-    <p>For any inquiries, please contact <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
 </body>
 </html>
