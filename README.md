@@ -20,7 +20,7 @@
         <li><strong>Enclosure Design:</strong> A safe and ergonomic enclosure to house all circuits.</li>
         <img src="https://private-user-images.githubusercontent.com/133969661/331798520-b485ea60-d34f-468a-837d-dc1756eb369e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYwMzU1NTQsIm5iZiI6MTcxNjAzNTI1NCwicGF0aCI6Ii8xMzM5Njk2NjEvMzMxNzk4NTIwLWI0ODVlYTYwLWQzNGYtNDY4YS04MzdkLWRjMTc1NmViMzY5ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUxOFQxMjI3MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01Y2NkYzE5OTc2MWMwMGZmZmM0MDE1NTZhODNjMjA2ZmNlY2UxMThiMjIxYjYxNjA0YWI1NjE5MDI3MDQwMWJlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.73XCuM6bYwyLgkHqXzRY9cJYqYkkG9hTmnFokWhEgng" alt="Charger Diagram" width="500">
 
-    </ul>
+</ul>
 
  <h2>Methodology</h2>
     <p>The charging process is divided into two stages:</p>
@@ -33,6 +33,7 @@
     <h2>Circuit Components</h2>
     <h3>PWM Generator</h3>
     <p>This circuit generates a PWM signal with a high frequency and adjustable duty cycle using two NE555 timer ICs in astable and monostable modes. The duty cycle is adjusted by the input to the voltage controller pin in the second IC.</p>
+    <img src="https://media.licdn.com/dms/image/D5612AQGUOb3Wp3Picw/article-inline_image-shrink_1500_2232/0/1705651347505?e=1721260800&v=beta&t=mfDjZUKkzgKsvxdE_pWh9dXA_fhWBgqfgBahB-1iqgM" alt="Charger Diagram" width="500">
     <h3>Constant Current Controller</h3>
     <p>This circuit ensures the battery receives a constant 1A current during the initial 70% of charging. A differential amplifier provides 5V when the current is 1A, which is fed to a comparator circuit that adjusts the PWM generator accordingly.</p>
     <h3>Constant Voltage Controller</h3>
