@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lead Acid Battery Charger with Constant Current and Constant Voltage Control</title>
 </head>
 <body>
     <h1>Lead Acid Battery Charger with Constant Current and Constant Voltage Control</h1>
