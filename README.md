@@ -18,6 +18,8 @@
         <li><strong>Input Voltage:</strong> 230V AC.</li>
         <li><strong>PWM Technique:</strong> Used for controlling the charging process.</li>
         <li><strong>Enclosure Design:</strong> A safe and ergonomic enclosure to house all circuits.</li>
+        <img src="https://private-user-images.githubusercontent.com/133969661/331798520-b485ea60-d34f-468a-837d-dc1756eb369e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYwMzU1NTQsIm5iZiI6MTcxNjAzNTI1NCwicGF0aCI6Ii8xMzM5Njk2NjEvMzMxNzk4NTIwLWI0ODVlYTYwLWQzNGYtNDY4YS04MzdkLWRjMTc1NmViMzY5ZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUxOFQxMjI3MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01Y2NkYzE5OTc2MWMwMGZmZmM0MDE1NTZhODNjMjA2ZmNlY2UxMThiMjIxYjYxNjA0YWI1NjE5MDI3MDQwMWJlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.73XCuM6bYwyLgkHqXzRY9cJYqYkkG9hTmnFokWhEgng" alt="Charger Diagram" width="500">
+
     </ul>
 
  <h2>Methodology</h2>
