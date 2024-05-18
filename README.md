@@ -34,19 +34,30 @@
     <h3>PWM Generator</h3>
     <p>This circuit generates a PWM signal with a high frequency and adjustable duty cycle using two NE555 timer ICs in astable and monostable modes. The duty cycle is adjusted by the input to the voltage controller pin in the second IC.</p>
     <img src="https://media.licdn.com/dms/image/D5612AQGUOb3Wp3Picw/article-inline_image-shrink_1500_2232/0/1705651347505?e=1721260800&v=beta&t=mfDjZUKkzgKsvxdE_pWh9dXA_fhWBgqfgBahB-1iqgM" alt="Charger Diagram" width="500">
+    <img src="https://media.licdn.com/dms/image/D5612AQHIeHim18oi_g/article-inline_image-shrink_1500_2232/0/1705651366562?e=1721260800&v=beta&t=Aye_njf5LrNSKCeabLDjT0YqZOlG1emfKlHQHpL3mME" alt="Charger Diagram" width="500">
     <h3>Constant Current Controller</h3>
     <p>This circuit ensures the battery receives a constant 1A current during the initial 70% of charging. A differential amplifier provides 5V when the current is 1A, which is fed to a comparator circuit that adjusts the PWM generator accordingly.</p>
+    <img src="https://media.licdn.com/dms/image/D5612AQE_VKyaJ5-sKg/article-inline_image-shrink_1500_2232/0/1705651386071?e=1721260800&v=beta&t=CmnTdI5VaeLA1QvCTdFIeFZ2oXuN9qV74god504faJc" alt="Charger Diagram" width="500">
+    <img src="https://media.licdn.com/dms/image/D5612AQFuR955E6fxWA/article-inline_image-shrink_1500_2232/0/1705651399231?e=1721260800&v=beta&t=_kOTPGhtNpUBVZvuG9Uh3w1diO2L_X2TQ45CgWnr9CY" alt="Charger Diagram" width="500">
     <h3>Constant Voltage Controller</h3>
     <p>This circuit maintains a constant 13.3V during the final 30% of charging. A differential amplifier provides 5V when the voltage is 13.3V, which is also fed to a comparator circuit that adjusts the PWM generator.</p>
+    <img src="https://media.licdn.com/dms/image/D5612AQFXkOTaakZ1oQ/article-inline_image-shrink_1500_2232/0/1705651428109?e=1721260800&v=beta&t=ANI-ND-GKnwCGLX_HIwxFlFgozAo7C1IEKH66mPJDTA" alt="Charger Diagram" width="500">
+    <img src="https://media.licdn.com/dms/image/D5612AQFvhRJjL2n72g/article-inline_image-shrink_1500_2232/0/1705651438594?e=1721260800&v=beta&t=uqONWXvrMwERm8nLenTXN3Fkbis0K8szHmSarGBRwgo" alt="Charger Diagram" width="500">
     <h3>Switching Circuit</h3>
     <p>This circuit uses an OP747 opamp comparator to switch between constant current and constant voltage modes based on the battery voltage.</p>
+    <img src="https://media.licdn.com/dms/image/D5612AQGEv3kxS8jHJA/article-inline_image-shrink_1500_2232/0/1705651454240?e=1721260800&v=beta&t=RKKdxUTAytcxzypqReLOuPsQpOQHSBKZobEQIXnOvww" alt="Charger Diagram" width="500">
     <h3>Buck Converter</h3>
     <p>The buck converter works in conjunction with the switching circuit to regulate the charging process, ensuring the battery is charged correctly in both stages.</p>
+    <img src="https://media.licdn.com/dms/image/D5612AQEvy8CXdE8rGg/article-inline_image-shrink_1500_2232/0/1705651579294?e=1721260800&v=beta&t=nzyI4kiJsuSTcCGWAP1diCLqt3p5QRzCltHfjcMEMSs" alt="Charger Diagram" width="500">
     <h2>Implementation</h2>
+    <img src="https://media.licdn.com/dms/image/D5612AQFZc6YyF9UNuw/article-inline_image-shrink_1000_1488/0/1705651656849?e=1721260800&v=beta&t=i8f8Hezrq0qDLw6kBSiOjfFJYSBQJqhku9AN0kol9W8" alt="Charger Diagram" width="500">
+    <img src="https://media.licdn.com/dms/image/D5612AQEbsYddoKQKWg/article-inline_image-shrink_1500_2232/0/1705651785195?e=1721260800&v=beta&t=ilp-FqIjsZg1c81_NTgCLLWWyOBK5Yb_GZVMQQEVu_w" alt="Charger Diagram" width="500">
     <p>The circuit was implemented on a breadboard to verify its functionality.</p>
     <h3>Results</h3>
     <ul>
+        <img src="https://media.licdn.com/dms/image/D5612AQFXQsijv234-g/article-inline_image-shrink_1500_2232/0/1705651824750?e=1721260800&v=beta&t=W_yapIfjosqM02xUrbHDFTNAvbeKR0QBRGO2UahV8t0" alt="Charger Diagram" width="500">
         <li><strong>PWM output without buck converter:</strong> Verified to be functional.</li>
+        <img src="https://media.licdn.com/dms/image/D5612AQG_DthY4KK9DQ/article-inline_image-shrink_1500_2232/0/1705651981114?e=1721260800&v=beta&t=M_Ji8zwRSeuSsrxNbNix8GDnWsmwH5_uwjmqfRKM-EU" alt="Charger Diagram" width="500">
         <li><strong>PWM output changing due to control voltage:</strong> Observed and documented.</li>
     </ul>
     <h2>Conclusion</h2>
